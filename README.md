@@ -1,5 +1,8 @@
 # Focusly - Landing Page
 
+![Demo Focusly](images/demo.png)
+*Visual demo landing page Focusly, menampilkan kombinasi Pomodoro Timer dan Habit Tracker dalam interface minimalis dan interaktif.*
+
 Landing page modern dan minimalis untuk aplikasi Focusly, sebuah gabungan Pomodoro Timer dan Habit Tracker.
 
 ## 🎯 Tentang Focusly
