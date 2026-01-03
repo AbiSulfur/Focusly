@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Focusly - A Simple Pomodoro & Habit Tracker</title>
+    <meta name="description" content="Combine a Pomodoro Timer & Habit Tracker in one app. Boost productivity. Build lasting habits.">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-focus"></i>
+                <span>Focusly</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Fitur</a>
+                <a href="#testimonials" class="nav-link">Testimoni</a>
+                <a href="#pricing" class="nav-link">Harga</a>
+                <button class="btn btn-primary">Masuk</button>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Focus Smarter,<br><span class="gradient-text">Build Lasting Habits</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Combine a Pomodoro Timer & Habit Tracker in one app. Boost productivity. Build lasting habits.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large">
+                        <i class="fas fa-play"></i>
+                        Start Building Habits Now
+                    </button>
+                    <button class="btn btn-secondary btn-large">
+                        <i class="fas fa-play-circle"></i>
+                        View Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Productivity Lovers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Pomodoros Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Satisfaction Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="app-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="timer-display">
+                            <div class="timer-circle">
+                                <svg class="timer-progress-ring" width="200" height="200" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="95" fill="none" stroke="var(--border-color)" stroke-width="2"/>
+                                    <circle class="progress-ring-circle" cx="100" cy="100" r="95" fill="none" stroke="var(--primary-color)" stroke-width="3" stroke-dasharray="597" stroke-dashoffset="0"/>
+                                </svg>
+                                <span class="timer-text">25:00</span>
+                            </div>
+                        </div>
+                        <div class="timer-controls">
+                            <button class="timer-btn">Start</button>
+                            <button class="timer-btn">Reset</button>
+                        </div>
+                        <div class="habit-list">
+                            <div class="habit-item">
+                                <div class="habit-checkbox checked"></div>
+                                <span>Read 30 minutes</span>
+                            </div>
+                            <div class="habit-item">
+                                <div class="habit-checkbox"></div>
+                                <span>Sport</span>
+                            </div>
+                            <div class="habit-item">
+                                <div class="habit-checkbox"></div>
+                                <span>Meditation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mengapa Memilih Focusly?</h2>
+                <p>Dirancang untuk membantu Anda mencapai fokus maksimal dan membangun kebiasaan yang konsisten</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Pomodoro Timer</h3>
+                    <p>Timer 25 menit yang membantu Anda fokus pada satu tugas tanpa gangguan. Istirahat teratur untuk menjaga produktivitas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Habit Tracker</h3>
+                    <p>Lacak kebiasaan harian Anda dengan mudah. Visualisasi progress membantu Anda tetap termotivasi dan konsisten.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Fokus Maksimal</h3>
+                    <p>Interface minimalis yang mengurangi distraksi. Fokus pada apa yang benar-benar penting untuk Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bagaimana Focusly Bekerja</h2>
+                <p>Tiga langkah sederhana menuju produktivitas yang lebih baik</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Set Timer</h3>
+                    <p>Pilih durasi fokus Anda (25, 50, atau 90 menit) dan mulai timer</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Fokus Kerja</h3>
+                    <p>Kerjakan tugas Anda tanpa gangguan sampai timer selesai</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Lacak Progress</h3>
+                    <p>Catat kebiasaan harian dan lihat progress Anda dari waktu ke waktu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Apa Kata Mereka</h2>
+                <p>Dengar langsung dari pengguna Focusly</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Focusly benar-benar mengubah cara saya bekerja. Timer Pomodoro membantu saya fokus, sementara habit tracker membuat saya tetap konsisten dengan kebiasaan baik."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Wijaya</h4>
+                            <span>Mahasiswa UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Interface yang clean dan mudah digunakan. Saya bisa melacak kebiasaan harian dengan mudah dan melihat progress saya. Sangat membantu untuk produktivitas!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Budi Santoso</h4>
+                            <span>Freelance Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap untuk Meningkatkan Produktivitas Anda?</h2>
+                <p>Bergabunglah dengan ribuan pengguna yang telah mengubah cara mereka bekerja dan hidup</p>
+                <button class="btn btn-primary btn-large">
+                    <i class="fas fa-rocket"></i>
+                    Mulai Sekarang - Gratis
+                </button>
+                <p class="cta-note">Tidak perlu kartu kredit • Setup dalam 30 detik</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-focus"></i>
+                        <span>Focusly</span>
+                    </div>
+                    <p>Membantu Anda tetap fokus dan membangun kebiasaan produktif dengan cara yang sederhana.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#">Fitur</a></li>
+                        <li><a href="#">Harga</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Integrasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Dukungan</h4>
+                    <ul>
+                        <li><a href="#">Pusat Bantuan</a></li>
+                        <li><a href="#">Komunitas</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Keamanan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Focusly. Semua hak dilindungi.</p>
+                <div class="footer-links">
+                    <a href="#">Privasi</a>
+                    <a href="#">Ketentuan</a>
+                    <a href="#">Cookie</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
